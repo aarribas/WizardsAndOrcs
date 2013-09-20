@@ -1,0 +1,13 @@
+level0
+5
+magic-ray-sprites
+items
+pointer
+gameplay
+intro
+0
+1
+fortress
+1
+LifeCraft_Font 48 176 23 21
+

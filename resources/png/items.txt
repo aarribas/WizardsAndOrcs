@@ -1,0 +1,7 @@
+256 256
+bloodgem = 0 0 64 64
+boots = 65 0 64 64
+coins = 130 0 64 64
+face = 0 65 64 64
+potion = 65 65 64 64
+shield = 0 130 64 64

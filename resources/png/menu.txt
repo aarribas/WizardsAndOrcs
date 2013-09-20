@@ -1,0 +1,4 @@
+2048 2048
+marker = 0 822 18 20
+menu_background = 0 0 1024 768
+small_logo = 0 769 365 52

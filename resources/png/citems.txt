@@ -1,0 +1,6 @@
+64 64
+cboots = 25 0 23 21
+ccoins = 0 32 21 19
+cgem = 45 22 15 12
+cpotion = 25 22 19 24
+cshield = 0 0 24 31

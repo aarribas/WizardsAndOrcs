@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{03994571-45F8-456F-8B1D-D11E8EDFACC6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>YMID</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\..\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\..\SOIL\include;$(ProjectDir)\..\include\freetypeinclude\;$(ProjectDir)\..\include\freetypeinclude\freetype2\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)\..\lib\;$(ProjectDir)\..\lib\fmod\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>TmxParserd.lib;SOIL.lib;freetype.lib;ws2_32.lib;OIS_static_d.lib;fmodexL_vc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\AvatarController.h" />
+    <ClInclude Include="..\include\AvatarLogicCalculator.h" />
+    <ClInclude Include="..\include\AvatarModel.h" />
+    <ClInclude Include="..\include\AvatarView.h" />
+    <ClInclude Include="..\include\BackgroundEntity.h" />
+    <ClInclude Include="..\include\BasicLogicDefinitions.h" />
+    <ClInclude Include="..\include\Core.h" />
+    <ClInclude Include="..\include\DynamicObjectController.h" />
+    <ClInclude Include="..\include\DynamicObjectFactory.h" />
+    <ClInclude Include="..\include\DynamicObjectLogicCalculator.h" />
+    <ClInclude Include="..\include\DynamicObjectMagicRayController.h" />
+    <ClInclude Include="..\include\DynamicObjectMagicRayLogicCalculator.h" />
+    <ClInclude Include="..\include\DynamicObjectMagicRayModel.h" />
+    <ClInclude Include="..\include\DynamicObjectMagicRayView.h" />
+    <ClInclude Include="..\include\DynamicObjectModel.h" />
+    <ClInclude Include="..\include\DynamicObjectView.h" />
+    <ClInclude Include="..\include\EndGameState.h" />
+    <ClInclude Include="..\include\EnemyController.h" />
+    <ClInclude Include="..\include\EnemyFactory.h" />
+    <ClInclude Include="..\include\EnemyGruntView.h" />
+    <ClInclude Include="..\include\EnemyLogicCalculator.h" />
+    <ClInclude Include="..\include\EnemyPatrollingHorizontallyLogicCalculator.h" />
+    <ClInclude Include="..\include\EnemyPatrollingStaticLogicCalculator.h" />
+    <ClInclude Include="..\include\EnemyPatrollingVerticallyLogicCalculator.h" />
+    <ClInclude Include="..\include\EnemyStaticModel.h" />
+    <ClInclude Include="..\include\EnemyStaticView.h" />
+    <ClInclude Include="..\include\FMODManager.h" />
+    <ClInclude Include="..\include\FontManager.h" />
+    <ClInclude Include="..\include\FreeType.h" />
+    <ClInclude Include="..\include\fsa.h" />
+    <ClInclude Include="..\include\GameProgressManager.h" />
+    <ClInclude Include="..\include\GameState.h" />
+    <ClInclude Include="..\include\HUDView.h" />
+    <ClInclude Include="..\include\InputManager.h" />
+    <ClInclude Include="..\include\IntroState.h" />
+    <ClInclude Include="..\include\IState.h" />
+    <ClInclude Include="..\include\LevelController.h" />
+    <ClInclude Include="..\include\LevelModel.h" />
+    <ClInclude Include="..\include\LevelView.h" />
+    <ClInclude Include="..\include\MapSearchNode.h" />
+    <ClInclude Include="..\include\MenuPositionRenderer.h" />
+    <ClInclude Include="..\include\MenuState.h" />
+    <ClInclude Include="..\include\MyConverter.h" />
+    <ClInclude Include="..\include\MyGL.h" />
+    <ClInclude Include="..\include\MyMath.h" />
+    <ClInclude Include="..\include\MyText.h" />
+    <ClInclude Include="..\include\PlayerController.h" />
+    <ClInclude Include="..\include\PlayerLogicCalculator.h" />
+    <ClInclude Include="..\include\PlayerModel.h" />
+    <ClInclude Include="..\include\PlayerModelInventory.h" />
+    <ClInclude Include="..\include\PlayerView.h" />
+    <ClInclude Include="..\include\Quaternion.h" />
+    <ClInclude Include="..\include\RectangleMesh.h" />
+    <ClInclude Include="..\include\ResourcesManager.h" />
+    <ClInclude Include="..\include\Settings.h" />
+    <ClInclude Include="..\include\SettingsManager.h" />
+    <ClInclude Include="..\include\SoundManager.h" />
+    <ClInclude Include="..\include\StateManager.h" />
+    <ClInclude Include="..\include\StaticObjectBootsView.h" />
+    <ClInclude Include="..\include\StaticObjectCoinsView.h" />
+    <ClInclude Include="..\include\StaticObjectController.h" />
+    <ClInclude Include="..\include\StaticObjectFactory.h" />
+    <ClInclude Include="..\include\StaticObjectGemView.h" />
+    <ClInclude Include="..\include\StaticObjectLogicCalculator.h" />
+    <ClInclude Include="..\include\StaticObjectModel.h" />
+    <ClInclude Include="..\include\StaticObjectPotionView.h" />
+    <ClInclude Include="..\include\StaticObjectShieldView.h" />
+    <ClInclude Include="..\include\StaticObjectView.h" />
+    <ClInclude Include="..\include\stlastar.h" />
+    <ClInclude Include="..\include\Texture.h" />
+    <ClInclude Include="..\include\TextureAtlas.h" />
+    <ClInclude Include="..\include\TextureManager.h" />
+    <ClInclude Include="..\include\Vector4.h" />
+    <ClInclude Include="..\src\EnemyPeonView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AvatarController.cpp" />
+    <ClCompile Include="..\src\AvatarLogicCalculator.cpp" />
+    <ClCompile Include="..\src\AvatarModel.cpp" />
+    <ClCompile Include="..\src\AvatarView.cpp" />
+    <ClCompile Include="..\src\BackgroundEntity.cpp" />
+    <ClCompile Include="..\src\Core.cpp" />
+    <ClCompile Include="..\src\DynamicObjectController.cpp" />
+    <ClCompile Include="..\src\DynamicObjectFactory.cpp" />
+    <ClCompile Include="..\src\DynamicObjectLogicCalculator.cpp" />
+    <ClCompile Include="..\src\DynamicObjectMagicRayController.cpp" />
+    <ClCompile Include="..\src\DynamicObjectMagicRayLogicCalculator.cpp" />
+    <ClCompile Include="..\src\DynamicObjectMagicRayModel.cpp" />
+    <ClCompile Include="..\src\DynamicObjectMagicRayView.cpp" />
+    <ClCompile Include="..\src\DynamicObjectModel.cpp" />
+    <ClCompile Include="..\src\DynamicObjectView.cpp" />
+    <ClCompile Include="..\src\EndGameState.cpp" />
+    <ClCompile Include="..\src\EnemyController.cpp" />
+    <ClCompile Include="..\src\EnemyFactory.cpp" />
+    <ClCompile Include="..\src\EnemyGruntView.cpp" />
+    <ClCompile Include="..\src\EnemyLogicCalculator.cpp" />
+    <ClCompile Include="..\src\EnemyPatrollingHorizontallyLogicCalculator.cpp" />
+    <ClCompile Include="..\src\EnemyPatrollingStaticLogicCalculator.cpp" />
+    <ClCompile Include="..\src\EnemyPatrollingVerticallyLogicCalculator.cpp" />
+    <ClCompile Include="..\src\EnemyPeonView.cpp" />
+    <ClCompile Include="..\src\EnemyStaticModel.cpp" />
+    <ClCompile Include="..\src\EnemyStaticView.cpp" />
+    <ClCompile Include="..\src\FMODManager.cpp" />
+    <ClCompile Include="..\src\FontManager.cpp" />
+    <ClCompile Include="..\src\FreeType.cpp" />
+    <ClCompile Include="..\src\GameProgressManager.cpp" />
+    <ClCompile Include="..\src\GameState.cpp" />
+    <ClCompile Include="..\src\HUDView.cpp" />
+    <ClCompile Include="..\src\InputManager.cpp" />
+    <ClCompile Include="..\src\IntroState.cpp" />
+    <ClCompile Include="..\src\LevelController.cpp" />
+    <ClCompile Include="..\src\LevelModel.cpp" />
+    <ClCompile Include="..\src\LevelView.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\MapSearchNode.cpp" />
+    <ClCompile Include="..\src\MenuPositionRenderer.cpp" />
+    <ClCompile Include="..\src\MenuState.cpp" />
+    <ClCompile Include="..\src\MyConverter.cpp" />
+    <ClCompile Include="..\src\MyMath.cpp" />
+    <ClCompile Include="..\src\MyText.cpp" />
+    <ClCompile Include="..\src\PlayerController.cpp" />
+    <ClCompile Include="..\src\PlayerLogicCalculator.cpp" />
+    <ClCompile Include="..\src\PlayerModel.cpp" />
+    <ClCompile Include="..\src\PlayerModelInventory.cpp" />
+    <ClCompile Include="..\src\PlayerView.cpp" />
+    <ClCompile Include="..\src\Quaternion.cpp" />
+    <ClCompile Include="..\src\RectangleMesh.cpp" />
+    <ClCompile Include="..\src\ResourcesManager.cpp" />
+    <ClCompile Include="..\src\Settings.cpp" />
+    <ClCompile Include="..\src\SettingsManager.cpp" />
+    <ClCompile Include="..\src\SoundManager.cpp" />
+    <ClCompile Include="..\src\StaticObjectBootsView.cpp" />
+    <ClCompile Include="..\src\StaticObjectCoinsView.cpp" />
+    <ClCompile Include="..\src\StaticObjectController.cpp" />
+    <ClCompile Include="..\src\StaticObjectFactory.cpp" />
+    <ClCompile Include="..\src\StaticObjectGemView.cpp" />
+    <ClCompile Include="..\src\StaticObjectLogicCalculator.cpp" />
+    <ClCompile Include="..\src\StaticObjectModel.cpp" />
+    <ClCompile Include="..\src\StaticObjectPotionView.cpp" />
+    <ClCompile Include="..\src\StaticObjectShieldView.cpp" />
+    <ClCompile Include="..\src\StaticObjectView.cpp" />
+    <ClCompile Include="..\src\Texture.cpp" />
+    <ClCompile Include="..\src\TextureAtlas.cpp" />
+    <ClCompile Include="..\src\TextureManager.cpp" />
+    <ClCompile Include="..\src\Vector4.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

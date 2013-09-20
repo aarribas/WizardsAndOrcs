@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="24" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="gameplay" tilewidth="32" tileheight="32">
+  <image source="../png/gameplay.png" width="1024" height="1024"/>
+  <tile id="3">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="99">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="100">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="128">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+  <tile id="289">
+   <properties>
+    <property name="solidity" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="32" height="24">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,99,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,99,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,99,1,1,1,99,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,99,1,1,1,99,1,1,1,1,290,97,97,97,97,97,97,97,97,97,3,3,3,97,97,97,97,97,97,1,1,
+1,1,99,1,1,1,99,1,1,1,1,97,97,97,97,102,97,97,97,97,97,3,3,3,97,97,97,97,97,97,1,1,
+1,1,99,99,99,99,99,1,1,1,1,97,97,1,1,1,1,1,1,97,97,3,3,3,97,97,1,1,97,97,1,1,
+1,1,1,1,1,1,1,1,1,1,1,97,97,1,1,1,1,1,1,97,97,97,97,97,97,97,1,1,97,97,1,1,
+1,1,1,1,1,1,1,1,1,1,1,97,97,1,1,1,1,1,1,97,100,97,97,97,100,97,1,1,97,97,1,1,
+1,1,1,1,1,1,1,1,1,1,1,97,97,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,97,97,1,1,
+1,1,1,1,1,1,1,1,1,1,1,97,97,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,97,97,1,1,
+1,1,1,1,97,97,1,1,1,1,1,97,97,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,97,97,1,1,
+1,1,1,1,97,97,1,1,1,1,1,97,97,1,1,1,1,1,196,196,196,196,1,1,1,1,1,1,97,97,1,1,
+1,1,1,1,97,97,97,97,97,97,97,97,97,1,1,1,1,1,196,196,196,196,1,1,1,1,1,1,104,97,1,1,
+1,1,1,1,97,97,97,97,97,97,97,97,97,1,1,1,1,1,196,196,196,196,1,1,1,1,1,1,97,97,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,97,97,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,97,97,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,97,97,1,1,
+1,1,1,1,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,97,1,1,
+1,1,1,1,97,97,97,97,97,97,97,97,97,97,97,97,97,102,97,97,97,97,97,97,97,97,97,97,97,104,1,1,
+1,1,1,1,97,97,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup name="Capa de Objetos 1" width="32" height="24">
+  <object name="peonS" x="210" y="433"/>
+  <object name="gruntH" x="592" y="136"/>
+  <object name="peonV" x="546" y="436"/>
+  <object name="gruntV" x="452" y="307"/>
+  <object name="peonH" x="858" y="607"/>
+  <object name="gem" x="413" y="730"/>
+  <object name="boots" x="864" y="293"/>
+  <object name="shield" x="328" y="298"/>
+  <object name="shield" x="326" y="319"/>
+  <object name="coins" x="145" y="209"/>
+  <object name="player" x="93" y="596"/>
+ </objectgroup>
+</map>

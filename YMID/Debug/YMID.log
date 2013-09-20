@@ -1,0 +1,119 @@
+﻿Compilación iniciada a las 09/09/2012 18:18:08.
+     1>Proyecto "C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\YMID\YMID.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\YMID.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Archivos de programa\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\YMID\\..\SOIL\include" /I"C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\YMID\\..\include\freetypeinclude\\" /I"C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\YMID\\..\include\freetypeinclude\freetype2\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\DynamicObjectMagicRayLogicCalculator.cpp ..\src\DynamicObjectMagicRayView.cpp ..\src\LevelController.cpp
+         LevelController.cpp
+     1>c:\documents and settings\aan\mis documentos\visual studio 2010\projects\ymid\include\dynamicobjectmodel.h(75): warning C4244: 'return' : conversión de 'int' a 'const float'; posible pérdida de datos
+     1>c:\documents and settings\aan\mis documentos\visual studio 2010\projects\ymid\include\dynamicobjectmodel.h(76): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>c:\documents and settings\aan\mis documentos\visual studio 2010\projects\ymid\src\levelcontroller.cpp(407): warning C4482: se utilizó una extensión no estándar: enumeración 'AvatarModel::AvatarState' utilizada en el nombre completo
+         DynamicObjectMagicRayView.cpp
+     1>c:\documents and settings\aan\mis documentos\visual studio 2010\projects\ymid\include\dynamicobjectmodel.h(75): warning C4244: 'return' : conversión de 'int' a 'const float'; posible pérdida de datos
+     1>c:\documents and settings\aan\mis documentos\visual studio 2010\projects\ymid\include\dynamicobjectmodel.h(76): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+         DynamicObjectMagicRayLogicCalculator.cpp
+     1>c:\documents and settings\aan\mis documentos\visual studio 2010\projects\ymid\include\dynamicobjectmodel.h(75): warning C4244: 'return' : conversión de 'int' a 'const float'; posible pérdida de datos
+     1>c:\documents and settings\aan\mis documentos\visual studio 2010\projects\ymid\include\dynamicobjectmodel.h(76): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+         Generando código...
+       ManifestResourceCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         C:\Archivos de programa\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\YMID.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\YMID\\..\lib\\" /LIBPATH:"C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\YMID\\..\lib\fmod\\" TmxParserd.lib SOIL.lib freetype.lib ws2_32.lib OIS_static_d.lib fmodexL_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\YMID.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\YMID.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\YMID.lib" /MACHINE:X86 Debug\YMID.exe.embed.manifest.res
+         Debug\AvatarController.obj
+         Debug\AvatarLogicCalculator.obj
+         Debug\AvatarModel.obj
+         Debug\AvatarView.obj
+         Debug\BackgroundEntity.obj
+         Debug\Core.obj
+         Debug\DynamicObjectController.obj
+         Debug\DynamicObjectFactory.obj
+         Debug\DynamicObjectLogicCalculator.obj
+         Debug\DynamicObjectMagicRayController.obj
+         Debug\DynamicObjectMagicRayLogicCalculator.obj
+         Debug\DynamicObjectMagicRayModel.obj
+         Debug\DynamicObjectMagicRayView.obj
+         Debug\DynamicObjectModel.obj
+         Debug\DynamicObjectView.obj
+         Debug\EndGameState.obj
+         Debug\EnemyController.obj
+         Debug\EnemyFactory.obj
+         Debug\EnemyGruntView.obj
+         Debug\EnemyLogicCalculator.obj
+         Debug\EnemyPatrollingHorizontallyLogicCalculator.obj
+         Debug\EnemyPatrollingStaticLogicCalculator.obj
+         Debug\EnemyPatrollingVerticallyLogicCalculator.obj
+         Debug\EnemyPeonView.obj
+         Debug\EnemyStaticModel.obj
+         Debug\EnemyStaticView.obj
+         Debug\FMODManager.obj
+         Debug\FontManager.obj
+         Debug\FreeType.obj
+         Debug\GameProgressManager.obj
+         Debug\GameState.obj
+         Debug\HUDView.obj
+         Debug\InputManager.obj
+         Debug\IntroState.obj
+         Debug\LevelController.obj
+         Debug\LevelModel.obj
+         Debug\LevelView.obj
+         Debug\main.obj
+         Debug\MapSearchNode.obj
+         Debug\MenuPositionRenderer.obj
+         Debug\MenuState.obj
+         Debug\MyConverter.obj
+         Debug\MyMath.obj
+         Debug\MyText.obj
+         Debug\PlayerController.obj
+         Debug\PlayerLogicCalculator.obj
+         Debug\PlayerModel.obj
+         Debug\PlayerModelInventory.obj
+         Debug\PlayerView.obj
+         Debug\Quaternion.obj
+         Debug\RectangleMesh.obj
+         Debug\ResourcesManager.obj
+         Debug\Settings.obj
+         Debug\SettingsManager.obj
+         Debug\SoundManager.obj
+         Debug\StaticObjectBootsView.obj
+         Debug\StaticObjectCoinsView.obj
+         Debug\StaticObjectController.obj
+         Debug\StaticObjectFactory.obj
+         Debug\StaticObjectGemView.obj
+         Debug\StaticObjectLogicCalculator.obj
+         Debug\StaticObjectModel.obj
+         Debug\StaticObjectPotionView.obj
+         Debug\StaticObjectShieldView.obj
+         Debug\StaticObjectView.obj
+         Debug\Texture.obj
+         Debug\TextureAtlas.obj
+         Debug\TextureManager.obj
+         Debug\Vector4.obj
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'SOIL.lib(image_DXT.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'SOIL.lib(image_helper.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'SOIL.lib(SOIL.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'SOIL.lib(stb_image_aug.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>OIS_static_d.lib(OISEffect.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'OIS_static_d.lib(OISEffect.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>OIS_static_d.lib(OISException.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'OIS_static_d.lib(OISException.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>OIS_static_d.lib(OISForceFeedback.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'OIS_static_d.lib(OISForceFeedback.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>OIS_static_d.lib(OISInputManager.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'OIS_static_d.lib(OISInputManager.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>OIS_static_d.lib(OISJoyStick.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'OIS_static_d.lib(OISJoyStick.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>OIS_static_d.lib(OISKeyboard.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'OIS_static_d.lib(OISKeyboard.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>OIS_static_d.lib(Win32ForceFeedback.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'OIS_static_d.lib(Win32ForceFeedback.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>OIS_static_d.lib(Win32InputManager.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'OIS_static_d.lib(Win32InputManager.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>OIS_static_d.lib(Win32JoyStick.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'OIS_static_d.lib(Win32JoyStick.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>OIS_static_d.lib(Win32KeyBoard.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'OIS_static_d.lib(Win32KeyBoard.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>OIS_static_d.lib(Win32Mouse.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'OIS_static_d.lib(Win32Mouse.obj)' o en 'C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+       Manifest:
+         C:\Archivos de programa\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\YMID.exe.embed.manifest" /manifest Debug\YMID.exe.intermediate.manifest "C:\Archivos de programa\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         Todas las salidas están actualizadas.
+       LinkEmbedManifest:
+         Todas las salidas están actualizadas.
+         YMID.vcxproj -> C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\Debug\YMID.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\YMID.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\YMID.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Documents and Settings\aan\Mis documentos\Visual Studio 2010\Projects\YMID\YMID\YMID.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:12.21
